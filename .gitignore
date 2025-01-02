@@ -14,8 +14,10 @@
 !.vimrc
 !.vim/
 !.vim/.gitkeep
-!.vim/settings/
-!.vim/settings/**
 !.vim/autoload/
 !.vim/autoload/**
+!.vim/plugged/
+!.vim/plugged/**
+!.vim/settings/
+!.vim/settings/**
 
