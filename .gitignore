@@ -10,4 +10,6 @@
 !.vimrc
 !.vim/
 !.vim/.gitkeep
+!.vim/settings/
+!.vim/settings/**
 
