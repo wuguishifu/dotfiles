@@ -2,6 +2,9 @@
 # anything after this line that starts with `!` will be whitelisted
 *
 
+# quick setup
+!.setup.sh
+
 # git
 !.gitignore
 !.gitignore-global
@@ -12,4 +15,6 @@
 !.vim/.gitkeep
 !.vim/settings/
 !.vim/settings/**
+!.vim/autoload/
+!.vim/autoload/**
 
