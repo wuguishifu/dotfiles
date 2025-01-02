@@ -8,6 +8,7 @@
 # git
 !.gitignore
 !.gitignore-global
+!.gitattributes
 
 # vim config
 !.vimrc
