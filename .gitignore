@@ -1,5 +1,13 @@
+# ignore everything
+# anything after this line that starts with `!` will be whitelisted
 *
+
+# git
 !.gitignore
 !.gitignore-global
+
+# vim config
 !.vimrc
+!.vim/
+!.vim/.gitkeep
 
