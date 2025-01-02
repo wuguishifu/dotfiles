@@ -3,7 +3,7 @@ let mapleader = "\\"
 " syntax highlighting
 syntax on
 set autoindent
-colorscheme desert
+colorscheme embark
 set showmode
 set showcmd
 
