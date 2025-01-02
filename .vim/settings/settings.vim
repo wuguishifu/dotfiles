@@ -2,8 +2,11 @@ let mapleader = "\\"
 
 " syntax highlighting
 syntax on
+colorscheme iceberg
+set background=dark
+
+" general display
 set autoindent
-colorscheme embark
 set showmode
 set showcmd
 

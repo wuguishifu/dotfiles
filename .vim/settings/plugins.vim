@@ -1,6 +1,6 @@
 call plug#begin('~/.vim/plugged')
 
-Plug 'embark-theme/vim', { 'as': 'embark', 'branch': 'main' }
+Plug 'cocopon/iceberg.vim', { 'as': 'iceberg', 'branch': 'master' }
 
 call plug#end()
 
