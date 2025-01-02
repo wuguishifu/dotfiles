@@ -27,7 +27,7 @@ set shiftwidth=2
 set incsearch
 set hlsearch
 
-function! ExecuteSearch(command)
+function! ExecuteSearch(command) abort
   if strlen(@/) > 0
     execute "normal! " .. a:command
   endif
