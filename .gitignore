@@ -3,7 +3,8 @@
 *
 
 # quick setup
-!.setup.sh
+!setup.sh
+!update.sh
 
 # git
 !.gitignore

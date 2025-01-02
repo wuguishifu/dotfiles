@@ -1,9 +1,16 @@
 let mapleader = "\\"
 
+if has('termguicolors')
+  set termguicolors
+endif
+
 " syntax highlighting
 syntax on
 colorscheme iceberg
 set background=dark
+
+" line numbers
+set number
 
 " general display
 set autoindent
@@ -15,11 +22,6 @@ set expandtab
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
-
-" line numbers
-set number
-highlight LineNr ctermfg=DarkGrey
-highlight LineNr guifg=#7c7c7c
 
 " searching
 set incsearch
