@@ -2,9 +2,9 @@
 # anything after this line that starts with `!` will be whitelisted
 *
 
-# quick setup
-!setup.sh
-!update.sh
+# setup scripts
+!.setup/
+!.setup/**
 
 # git
 !.gitignore
