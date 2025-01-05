@@ -10,6 +10,8 @@
 !.gitignore
 !.gitignore-global
 !.gitattributes
+!.github/
+!.github/**
 
 # vim config
 !.vimrc
