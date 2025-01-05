@@ -18,7 +18,9 @@
 !.vim/autoload/
 !.vim/autoload/**
 !.vim/plugged/
-!.vim/plugged/.gitignore
+!.vim/plugged/.gitkeep
 !.vim/settings/
 !.vim/settings/**
+!.vim/tmp/
+!.vim/tmp/.gitkeep
 

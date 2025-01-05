@@ -1,3 +1,11 @@
+set magic
+
+if !isdirectory(expand("~/.vim/tmp"))
+  call mkdir(expand("~/.vim/tmp"), "p")
+endif
+
+set directory=~/.vim/tmp//
+
 let mapleader = "\\"
 
 if has('termguicolors')
