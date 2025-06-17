@@ -1,0 +1,8 @@
+#!/bin/sh
+
+LINE='source $HOME/.cext/.zsh-ext'
+ZSHRC="$HOME/.zshrc"
+
+if ! grep -Fxq "$LINE" "$ZSHRC"; then
+  echo "$LINE" >> "$ZSHRC"
+fi

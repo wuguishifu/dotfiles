@@ -6,4 +6,3 @@ if [ ! -f ~/.vim/autoload/plug.vim ]; then
 fi
 
 vim +PlugInstall +qall
-
