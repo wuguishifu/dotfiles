@@ -16,13 +16,8 @@
 # vim config
 !.vimrc
 !.vim/
-!.vim/.gitkeep
-!.vim/autoload/
-!.vim/autoload/**
-!.vim/plugged/
-!.vim/plugged/.gitkeep
-!.vim/settings/
-!.vim/settings/**
-!.vim/tmp/
-!.vim/tmp/.gitkeep
+!.vim/**
 
+# config extensions
+!.cext/
+!.cext/**
