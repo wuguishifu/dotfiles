@@ -21,3 +21,6 @@
 # config extensions
 !.cext/
 !.cext/**
+
+# screen config
+!.screenrc
