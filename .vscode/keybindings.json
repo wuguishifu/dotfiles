@@ -6,6 +6,11 @@
     "when": "terminalFocus"
   },
   {
+    "key": "cmd+i",
+    "command": "workbench.action.chat.openAgent",
+    "when": "config.chat.agent.enabled && !chatSetupDisabled && !chatSetupHidden && !view.workbench.panel.chat.view.copilot.visible"
+  },
+  {
     "key": "shift+cmd+i",
     "command": "runCommands",
     "args": {
@@ -13,6 +18,27 @@
         "workbench.action.chat.newChat",
         "workbench.action.chat.openAgent"
       ]
-    }
+    },
+    "when": "config.chat.agent.enabled && !chatSetupDisabled && !chatSetupHidden && !view.workbench.panel.chat.view.copilot.visible"
+  },
+  {
+    "key": "shift+cmd+i",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "workbench.action.chat.newChat"
+      ]
+    },
+    "when": "config.chat.agent.enabled && !chatSetupDisabled && !chatSetupHidden && view.workbench.panel.chat.view.copilot.visible"
+  },
+  {
+    "key": "escape",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "workbench.action.closeAuxiliaryBar"
+      ]
+    },
+    "when": "view.workbench.panel.chat.view.copilot.visible"
   }
 ]
