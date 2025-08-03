@@ -1,0 +1,64 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "editor.lineNumbers": "relative",
+    "[xml]": {
+        "editor.formatOnSave": false
+    },
+    "vim.foldfix": true,
+    "json.schemas": [],
+    "emmet.excludeLanguages": [
+        "markdown",
+        "typescriptreact"
+    ],
+    "files.exclude": {
+        "**/._*": true
+    },
+    "explorer.compactFolders": false,
+    "workbench.startupEditor": "none",
+    "files.insertFinalNewline": true,
+    "extensions.ignoreRecommendations": true,
+    "editor.fontSize": 13,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.preferences.quoteStyle": "single",
+    "editor.accessibilitySupport": "off",
+    "vsicons.dontShowNewVersionMessage": true,
+    "files.associations": {
+        "*.ahap": "json",
+        "*.android-haptic": "json",
+        "*.svg": "xml"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "vim.joinspaces": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "markdown.preview.scrollPreviewWithEditor": false,
+    "git.autofetch": true,
+    "prettyxml.settings.indentSpaceLength": 2,
+    "editor.indentSize": "tabSize",
+    "git.openRepositoryInParentFolders": "always",
+    "editor.tabSize": 2,
+    "kotlin.languageServer.enabled": false,
+    "kotlin.debugAdapter.enabled": false,
+    "cSpell.userWords": [
+        "Bootstrapper",
+        "Plushie",
+        "Pressable",
+        "stresser",
+        "stressers",
+        "unmarshall"
+    ],
+    "editor.minimap.renderCharacters": false,
+    "git.blame.statusBarItem.enabled": false,
+    "git.blame.editorDecoration.enabled": true,
+    "typescript.preferences.organizeImports": {},
+    "notebook.codeActionsOnSave": {},
+    "eslint.codeActionsOnSave.rules": null,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "dotnet.codeLens.enableReferencesCodeLens": false,
+    "csharp.format.enable": false,
+    "vim.handleKeys": {
+        "<C-6>": false
+    },
+    "workbench.editorAssociations": {
+        "*.svg": "default"
+    }
+}
