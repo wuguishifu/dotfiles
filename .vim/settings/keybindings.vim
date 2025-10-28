@@ -10,3 +10,5 @@ nnoremap <C-b> <C-b>zz
 " tabs
 nnoremap gr gT
 
+" json format a file
+nnoremap <leader>j :%!jq .<CR>
