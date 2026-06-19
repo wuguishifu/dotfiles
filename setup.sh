@@ -13,7 +13,10 @@ update_managed_region "$ZSHRC" "#" <<EOF
 EOF
 
 # MARK: setup vim
-ln -sfn "$SCRIPT_DIR/.vim" "$HOME/.vim"
+if [ ! -d "$HOME/.vim" ]; then
+  mkdir "$HOME/.vim"
+fi
+ln -sfn "$SCRIPT_DIR/.vim" "$HOME/.vim/settings"
 if [ ! -f "$HOME/.vim/autoload/plug.vim" ]; then
   curl \
     -fLo \
