@@ -1,64 +1,81 @@
 {
-    "workbench.iconTheme": "vscode-icons",
-    "editor.lineNumbers": "relative",
-    "[xml]": {
-        "editor.formatOnSave": false
-    },
-    "vim.foldfix": true,
-    "json.schemas": [],
-    "emmet.excludeLanguages": [
-        "markdown",
-        "typescriptreact"
-    ],
-    "files.exclude": {
-        "**/._*": true
-    },
-    "explorer.compactFolders": false,
-    "workbench.startupEditor": "none",
-    "files.insertFinalNewline": true,
-    "extensions.ignoreRecommendations": true,
-    "editor.fontSize": 13,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "typescript.preferences.quoteStyle": "single",
-    "editor.accessibilitySupport": "off",
-    "vsicons.dontShowNewVersionMessage": true,
-    "files.associations": {
-        "*.ahap": "json",
-        "*.android-haptic": "json",
-        "*.svg": "xml"
-    },
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "vim.joinspaces": false,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "markdown.preview.scrollPreviewWithEditor": false,
-    "git.autofetch": true,
-    "prettyxml.settings.indentSpaceLength": 2,
-    "editor.indentSize": "tabSize",
-    "git.openRepositoryInParentFolders": "always",
-    "editor.tabSize": 2,
-    "kotlin.languageServer.enabled": false,
-    "kotlin.debugAdapter.enabled": false,
-    "cSpell.userWords": [
-        "Bootstrapper",
-        "Plushie",
-        "Pressable",
-        "stresser",
-        "stressers",
-        "unmarshall"
-    ],
-    "editor.minimap.renderCharacters": false,
-    "git.blame.statusBarItem.enabled": false,
-    "git.blame.editorDecoration.enabled": true,
-    "typescript.preferences.organizeImports": {},
-    "notebook.codeActionsOnSave": {},
-    "eslint.codeActionsOnSave.rules": null,
-    "github.copilot.nextEditSuggestions.enabled": true,
-    "dotnet.codeLens.enableReferencesCodeLens": false,
-    "csharp.format.enable": false,
-    "vim.handleKeys": {
-        "<C-6>": false
-    },
-    "workbench.editorAssociations": {
-        "*.svg": "default"
-    }
+  // MARK: Workbench / UI
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "none",
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+  "explorer.compactFolders": false,
+
+  // MARK: Editor (general)
+  "editor.lineNumbers": "relative",
+  "editor.fontSize": 13,
+  "editor.tabSize": 2,
+  "editor.indentSize": "tabSize",
+  "editor.minimap.renderCharacters": false,
+  "editor.accessibilitySupport": "off",
+
+  // MARK: Files
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/._*": true
+  },
+  "files.associations": {
+    "*.ahap": "json",
+    "*.android-haptic": "json",
+    "*.svg": "xml"
+  },
+
+  // MARK: Language-specific settings
+  "[xml]": {
+    "editor.formatOnSave": false
+  },
+
+  // MARK: JavaScript / TypeScript
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "js/ts.preferences.quoteStyle": "single",
+  "js/ts.preferences.organizeImports": {},
+
+  // MARK: Git
+  "git.autofetch": true,
+  "git.openRepositoryInParentFolders": "always",
+  "git.blame.statusBarItem.enabled": false,
+  "git.blame.editorDecoration.enabled": true,
+
+  // MARK: Vim extension
+  "vim.foldfix": true,
+  "vim.joinspaces": false,
+  "vim.handleKeys": {
+    "<C-6>": false
+  },
+
+  // MARK: Markdown
+  "markdown.preview.scrollPreviewWithEditor": false,
+
+  // MARK: Formatting / Tools
+  "prettyxml.settings.indentSpaceLength": 2,
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  // MARK: Extensions / Integrations
+  "extensions.ignoreRecommendations": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "vsicons.dontShowNewVersionMessage": true,
+
+  // MARK: Emmet
+  "emmet.excludeLanguages": ["markdown", "typescriptreact"],
+
+  // MARK: Spell checker
+  "cSpell.userWords": [
+    "Bootstrapper",
+    "Plushie",
+    "Pressable",
+    "stresser",
+    "stressers",
+    "unmarshall"
+  ],
+
+  // MARK: Language schemas
+  "json.schemas": [],
+  "notebook.codeActionsOnSave": {},
+  "eslint.codeActionsOnSave.rules": null
 }

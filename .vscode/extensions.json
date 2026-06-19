@@ -9,7 +9,6 @@
     "dbaeumer.vscode-eslint",
     "eamodio.gitlens",
     "file-icons.file-icons",
-    "formulahendry.auto-rename-tag",
     "fwcd.kotlin",
     "geforcelegend.vscode-glsl",
     "github.copilot",
@@ -49,6 +48,6 @@
     "vscodevim.vim",
     "vue.volar",
     "waderyan.gitblame",
-    "yoavbls.pretty-ts-errors",
+    "yoavbls.pretty-ts-errors"
   ]
 }

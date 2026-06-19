@@ -1,0 +1,6 @@
+" must come first because it installs plugins
+source $HOME/.vim/settings/plugins.vim
+
+" other guys
+source $HOME/.vim/settings/settings.vim
+source $HOME/.vim/settings/keybindings.vim

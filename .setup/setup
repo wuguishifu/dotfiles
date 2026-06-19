@@ -1,6 +1,0 @@
-#!/bin/sh
-
-ROOT_DIR="$(cd "$(dirname "$0")" || exit 1; pwd)"
-
-"$ROOT_DIR/configure-git"
-"$ROOT_DIR/configure-vim"

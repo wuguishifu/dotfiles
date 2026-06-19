@@ -1,32 +1,6 @@
-# ignore everything
-# anything after this line that starts with `!` will be whitelisted
-*
-
-# setup scripts
-!.setup/
-!.setup/**
-
-# git
-!.gitignore
-!.gitignore-global
-!.gitattributes
-!.github/
-!.github/**
-
-# vim config
-!.vimrc
-!.vim/
-!.vim/**
-
-# config extensions
-!.cext/
-!.cext/**
-
-# screen config
-!.screenrc
-
-# vscode config
-!.vscode/
-!.vscode/extensions.json
-!.vscode/settings.json
-!.vscode/keybindings.json
+# vim
+plug.vim
+.vim/tmp/*
+.vim/.netrwhist
+.vim/plugged/*
+!.vim/plugged/.gitkeep
