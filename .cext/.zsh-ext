@@ -1,6 +1,9 @@
-# ------ aliases ------
-alias tsc="npx tsc"
-alias lint="npx eslint ."
+# ------ ALIASES ------
+# git
+alias ga="git add"
+alias gaa="git add ."
+alias gcm="git commit -m"
+alias gca="git commit --amend"
 alias gb="git branch"
 alias gc="git checkout"
 alias gp="git pull"
@@ -10,5 +13,27 @@ alias gpnv="git push --no-verify"
 alias gps="git push --set-upstream origin"
 alias gpnvs="git push --no-verify --set-upstream origin"
 alias gpod="git pull origin develop"
-alias gpom="git pull origin master"
-alias gpoa="git pull origin main"
+alias gpom="git pull origin main"
+
+# nav
+alias d="cd /$HOME/Developer/wuguishifu/universe"
+alias g="cd /$HOME/Developer"
+alias la="ls -a"
+
+# k8s
+alias k="kubectl"
+
+# node tooling
+alias nx="pnpm nx"
+alias moon="pnpm moon"
+alias turbo="pnpm turbo"
+
+# ------ ENV ------
+export NX_TUI=false
+export TURBO_UI=false
+export IPHONE_15PM=00008130-001A0C623460001C
+export NOTE_9=26845dbd1c1c7ece
+export FFMPEG_ENCODER=h264_videotoolbox
+
+export EDITOR=vim
+export VISUAL=vim
