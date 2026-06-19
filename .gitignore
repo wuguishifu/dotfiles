@@ -3,4 +3,3 @@ plug.vim
 .vim/tmp/*
 .vim/.netrwhist
 .vim/plugged/*
-!.vim/plugged/.gitkeep
