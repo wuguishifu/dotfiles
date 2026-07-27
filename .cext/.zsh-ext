@@ -38,3 +38,12 @@ export FFMPEG_ENCODER=h264_videotoolbox
 
 export EDITOR=vim
 export VISUAL=vim
+
+# ------ OS-SPECIFIC ------
+# mac
+if [ "$(uname)" = "Darwin" ]; then
+  flushdns() {
+    sudo dscacheutil -flushcache
+    sudo killall -HUP mDNSResponder
+  }
+fi
