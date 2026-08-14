@@ -17,7 +17,6 @@ alias gpod="git pull origin develop"
 alias gpom="git pull origin main"
 
 # nav
-alias d="cd /$HOME/Developer/wuguishifu/universe"
 alias g="cd /$HOME/Developer"
 alias la="ls -a"
 
