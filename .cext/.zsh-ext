@@ -37,6 +37,8 @@ export FFMPEG_ENCODER=h264_videotoolbox
 
 export EDITOR=vim
 export VISUAL=vim
+# need to disable vim from terminal/omzsh
+bindkey -e
 
 # ------ OS-SPECIFIC ------
 # mac
