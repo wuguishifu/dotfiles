@@ -18,7 +18,6 @@ alias gpom="git pull origin main"
 alias gaagca="git add . && git commit --amend"
 
 # nav
-alias d="cd /$HOME/Developer/wuguishifu/universe"
 alias g="cd /$HOME/Developer"
 alias la="ls -a"
 
@@ -39,6 +38,8 @@ export FFMPEG_ENCODER=h264_videotoolbox
 
 export EDITOR=vim
 export VISUAL=vim
+# need to disable vim from terminal/omzsh
+bindkey -e
 
 # ------ OS-SPECIFIC ------
 # mac
