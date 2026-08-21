@@ -15,6 +15,7 @@ alias gps="git push --set-upstream origin"
 alias gpnvs="git push --no-verify --set-upstream origin"
 alias gpod="git pull origin develop"
 alias gpom="git pull origin main"
+alias gaagca="git add . && git commit --amend"
 
 # nav
 alias d="cd /$HOME/Developer/wuguishifu/universe"
